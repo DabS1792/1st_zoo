@@ -57,6 +57,9 @@
         .mailing__input-text {
             margin-bottom: 10px;
         }
+        .advise__inner {
+            justify-content: center;
+        }
     }
     
     @media (max-width:850px) {
