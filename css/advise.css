@@ -1,0 +1,26 @@
+.advise__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-top: 1px solid #e3e3e3;
+}
+
+.advice__item {
+    max-width: 300px;
+}
+
+.advise__img+.advise__img {
+    position: relative;
+    padding-left: 19px;
+}
+
+.adivse__item-link {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 38px;
+    transform: translateY(-59px);
+    text-align: left;
+}

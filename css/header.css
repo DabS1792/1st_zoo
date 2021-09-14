@@ -1,0 +1,136 @@
+.header__top-bckg {
+    background-color: #6ac4b8;
+}
+
+.header__top-menu {
+    background-color: #8cd3c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.header__top-menu li a {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    text-decoration: underline 2px;
+    color: #ffffff;
+    transition: all 0.7s linear;
+}
+
+.header__top-menu li+li {
+    margin-left: 40px;
+}
+
+.header__top-menu li a:hover {
+    color: orange;
+}
+
+.header__main {
+    background-color: #6ac4b8;
+}
+
+.header__intro {
+    display: flex;
+    justify-content: center;
+}
+
+.header__intro-lft {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.header__intro-rght {
+    margin-left: 120px;
+}
+
+.header__intro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #157d8c;
+    font-style: italic;
+}
+
+.header__intro-content span {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.header__search {
+    width: 411px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding-left:10px;
+}
+
+.header__search::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6ac4b8;
+}
+
+.header__search form {
+    display: flex;
+}
+
+.header__submit-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #157d8c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu {
+    border-top: 1px solid #99dad2;
+    margin-top: 15px;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 53px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: all 0.7s linear;
+    padding-left: 33px;
+    position: relative;
+}
+
+.menu-items li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/header/feet.png);
+}
+
+.menu-items li a:hover {
+    color: orange;
+}
+
+.menu-items li+li {
+    margin-left: 39px;
+}

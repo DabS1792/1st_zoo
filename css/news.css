@@ -1,0 +1,179 @@
+.title {
+    font-size: 32px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #383838;
+    margin-left: 156px;
+    margin-bottom: 0;
+}
+
+.news__inner {
+    display: flex;
+}
+
+.news__item {
+    display: flex;
+    padding: 30px 0;
+    border-top: 1px solid #e3e3e3;
+}
+
+.news__item-rght {
+    margin-left: 19px;
+    width: 362px;
+}
+
+.news__title-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #383838;
+    margin: bottom 26px;
+}
+
+.news__icons {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6ac4b8;
+}
+
+.news__icons div+div {
+    margin-left: 42px;
+}
+
+.news__icons div {
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.news__icons-date::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/news/calendar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news__icons-view::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/news/eye.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news__icons-comments::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/news/comments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news__text-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6ac4b8;
+}
+
+.news__discussion {
+    margin-left: 30px;
+}
+
+.news__discussion-title {
+    font-size: 22px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #91d35f;
+    text-align: center;
+    cursor: pointer;
+}
+
+.news__discussion-img {
+    width: 100%;
+}
+
+.news__discussion-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #91d35f;
+}
+
+.news__discussion-icons div+div {
+    margin-left: 42px;
+}
+
+.news__discussion-icons div {
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.news__discussion-view,
+.news__discussion-comments {
+    position: relative;
+}
+
+.news__discussion-view::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/news/green-eyes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news__discussion-comments::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/news/green-cooments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news__discussion-question a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #383838;
+}
+
+.advise {
+    background-color: #f3f3f3;
+}
+
+.title-bg {
+    text-align: center;
+    margin-left: 0;
+}

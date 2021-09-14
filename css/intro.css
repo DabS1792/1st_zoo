@@ -1,0 +1,182 @@
+.intro__box {
+    display: flex;
+    margin-top: 15px;
+}
+
+.intro__slider {
+    min-width: 0;
+    max-width: 630px;
+}
+
+.slider__item {
+    position: relative;
+}
+
+.slider__img {}
+
+.slider__title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fed34f;
+    position: absolute;
+    top: 0;
+    left: 36px;
+    width: 224px;
+    height: 74px;
+}
+
+.slider__title span {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.intro__slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__slider .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translate(-14px, -48px);
+    border-radius: 50%;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.slick-dots li.slick-active {
+    background: white;
+}
+
+.intro__vote {
+    margin-left: 30px;
+}
+
+.intro__vote-text {
+    font-size: 22px;
+    line-height: 53px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #fed34f;
+    text-align: center;
+}
+
+.intro__checkbox {}
+
+.intro__vote-box {
+    background-color: #f3f3f3;
+    padding: 25px 18px;
+}
+
+.intro__vote-box h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #383838;
+}
+
+.intro__vote-box p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    position: relative;
+    padding: 10px 0 10px 25px;
+}
+
+input[type="checkbox"]+label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+}
+
+input[type="checkbox"]:checked+label::before {
+    background: #FED34F;
+    border: 1px solid #FED34F;
+}
+
+input[type="checkbox"]:checked+label::after {
+    content: "";
+    width: 5px;
+    height: 12px;
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    transform: rotate(32deg);
+    top: 9px;
+    left: 5px;
+    position: absolute;
+}
+
+.intro__votes-result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__votes-result {
+    padding: 0;
+    margin-top: 28px;
+}
+
+.intro__votes-result li {
+    list-style: none;
+}
+
+.intro__votes-result li a {
+    font-size: 18px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #fed34f;
+    position: relative;
+    transition: all 0.7s ease;
+}
+
+.intro__votes-result li a:before {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 32px;
+    background: url(../images/intro/vote_lapka.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 16px;
+}
+
+.intro__votes-result li:hover {
+    transform: scale(1.1);
+}
